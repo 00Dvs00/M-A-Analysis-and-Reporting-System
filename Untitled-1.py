@@ -58,7 +58,7 @@ def get_risk_free_rate():
 def get_financial_data(ticker_symbol):
     """
     Fetches a comprehensive set of financial data for a given stock ticker.
-    This final version uses a definitive list of metric names discovered through debugging.
+    This version includes a debug helper to print available metrics if a lookup fails.
     """
     try:
         company = yf.Ticker(ticker_symbol)
@@ -69,6 +69,7 @@ def get_financial_data(ticker_symbol):
         data['current_price'] = info.get('currentPrice')
         data['beta'] = info.get('beta')
         data['shares_outstanding'] = info.get('sharesOutstanding')
+        data['_debug_metrics_printed'] = False # Flag to prevent repeated printing
 
         if not data['current_price']:
             history = company.history(period='1d')
@@ -83,26 +84,35 @@ def get_financial_data(ticker_symbol):
         balance_sheet = company.balance_sheet
         cash_flow = company.cashflow
 
-        # --- FINALIZED METRIC MAP ---
-        # Using the exact names discovered from the debug output.
+        # --- UPDATED METRIC MAP from your last request ---
         metric_map = {
             # Our Standard Name: ([List of Possible yfinance Names], Statement DataFrame)
+            
+            # Income Statement Metrics
             'Total Revenue': (['Total Revenue'], financials),
             'EBITDA': (['EBITDA'], financials),
             'EBIT': (['EBIT'], financials),
             'Net Income': (['Net Income'], financials),
-            # Added a new possible name for Interest Expense
             'Interest Expense': (['Interest Expense', 'Net Non Operating Interest Income Expense'], financials),
+            # NEW: Added Tax Provision as a fallback for taxes
+            'Tax Provision': (['Tax Provision'], financials),
+
+            # Balance Sheet Metrics
+            'Total Current Assets': (['Total Current Assets', 'Current Assets'], balance_sheet),
+            'Total Current Liabilities': (['Total Current Liabilities', 'Current Liabilities'], balance_sheet),
             'Cash And Cash Equivalents': (['Cash And Cash Equivalents', 'Cash'], balance_sheet),
             'Total Debt': (['Total Debt'], balance_sheet),
+            
+            # Cash Flow Metrics
             'Depreciation And Amortization': (['Depreciation And Amortization', 'Depreciation'], cash_flow),
             'Capital Expenditure': (['Capital Expenditure'], cash_flow),
-            # Added the definitive names for Operating Cash Flow
+            # This remains to catch actual cash taxes paid when available
+            'Income Taxes Paid': (['Income Tax Paid Supplemental Data', 'Income Taxes Paid'], cash_flow),
             'Operating Cash Flow': ([
                 'Operating Cash Flow',
                 'Cash Flow From Continuing Operating Activities',
-                'Net Cash Provided by Operating Activities', 
-                'Total Cash From Operating Activities', 
+                'Net Cash Provided by Operating Activities',
+                'Total Cash From Operating Activities',
                 'Cash Flow From Operating Activities',
                 'Change In Cash and Cash Equivalents'
             ], cash_flow),
@@ -117,12 +127,39 @@ def get_financial_data(ticker_symbol):
                     if name in statement_df.index:
                         data[standard_name] = statement_df.loc[name]
                         found_metric = True
-                        break # Found it, move on
+                        break  # Found it, move on
             
+            # --- THIS IS THE NEW DEBUGGING BLOCK ---
             if not found_metric:
-                # The warning remains, just in case a new ticker has a different name
-                print(f"Warning: Metric '{standard_name}' (tried: {', '.join(possible_names)}) not found for {ticker_symbol}.")
+                print(f"\nWarning: Metric '{standard_name}' (tried: {', '.join(possible_names)}) not found for {ticker_symbol}.")
+                
+                # Check if we've already printed the debug info for this ticker
+                if not data.get('_debug_metrics_printed'):
+                    print(f"--- DEBUG: Printing all available yfinance metrics for {ticker_symbol} ---")
+                    
+                    if not financials.empty:
+                        print("\n--- Available Income Statement Metrics ---")
+                        print(sorted(list(financials.index)))
+                    else:
+                        print("\n--- Income Statement data not available ---")
 
+                    if not balance_sheet.empty:
+                        print("\n--- Available Balance Sheet Metrics ---")
+                        print(sorted(list(balance_sheet.index)))
+                    else:
+                        print("\n--- Balance Sheet data not available ---")
+
+                    if not cash_flow.empty:
+                        print("\n--- Available Cash Flow Metrics ---")
+                        print(sorted(list(cash_flow.index)))
+                    else:
+                        print("\n--- Cash Flow data not available ---")
+                    
+                    print(f"---------------------------------------------------\n")
+                    data['_debug_metrics_printed'] = True # Set flag to avoid re-printing
+
+        # Clean up the helper key from the final data object
+        del data['_debug_metrics_printed']
         return data
 
     except Exception as e:
@@ -337,8 +374,15 @@ if __name__ == "__main__":
             # Part 3a: Process Financial Statements and Summary Data
             statement_keys = [
                 'Total Revenue', 'EBITDA', 'EBIT', 'Net Income', 'Interest Expense',
-                'Cash And Cash Equivalents', 'Total Debt', 'Depreciation And Amortization',
-                'Capital Expenditure', 'Operating Cash Flow' 
+                'Tax Provision',  
+                'Income Taxes Paid', 
+                'Total Current Assets',
+                'Total Current Liabilities', 
+                'Cash And Cash Equivalents', 
+                'Total Debt', 
+                'Depreciation And Amortization',
+                'Capital Expenditure', 
+                'Operating Cash Flow'
             ]
 
             statement_data = {key: financial_data[key] for key in statement_keys if financial_data[key] is not None}
@@ -386,7 +430,7 @@ if __name__ == "__main__":
 
         # --- Step 4: Download SEC Filings ---
         print(f"--- Proceeding to download SEC filings for {ticker} ---")
-        forms_to_download = {"10-K": 5, "10-Q": 4} # Reduced for brevity, add "8-K" if needed
+        forms_to_download = {"10-K": 10, "10-Q": 4} # Reduced for brevity, add "8-K" if needed
         for form_type, limit in forms_to_download.items():
             fetch_sec_filings(ticker, form_type, limit, COMPANY_NAME, EMAIL_ADDRESS)
             
