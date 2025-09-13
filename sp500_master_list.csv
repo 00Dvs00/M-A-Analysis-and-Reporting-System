@@ -1,0 +1,503 @@
+ticker,name,cik,sector,industry
+MMM,3M,66740,Industrials,Industrial Conglomerates
+AOS,A. O. Smith,91142,Industrials,Building Products
+ABT,Abbott Laboratories,1800,Health Care,Health Care Equipment
+ABBV,AbbVie,1551152,Health Care,Biotechnology
+ACN,Accenture,1467373,Information Technology,IT Consulting & Other Services
+ADBE,Adobe Inc.,796343,Information Technology,Application Software
+AMD,Advanced Micro Devices,2488,Information Technology,Semiconductors
+AES,AES Corporation,874761,Utilities,Independent Power Producers & Energy Traders
+AFL,Aflac,4977,Financials,Life & Health Insurance
+A,Agilent Technologies,1090872,Health Care,Life Sciences Tools & Services
+APD,Air Products,2969,Materials,Industrial Gases
+ABNB,Airbnb,1559720,Consumer Discretionary,"Hotels, Resorts & Cruise Lines"
+AKAM,Akamai Technologies,1086222,Information Technology,Internet Services & Infrastructure
+ALB,Albemarle Corporation,915913,Materials,Specialty Chemicals
+ARE,Alexandria Real Estate Equities,1035443,Real Estate,Office REITs
+ALGN,Align Technology,1097149,Health Care,Health Care Supplies
+ALLE,Allegion,1579241,Industrials,Building Products
+LNT,Alliant Energy,352541,Utilities,Electric Utilities
+ALL,Allstate,899051,Financials,Property & Casualty Insurance
+GOOGL,Alphabet Inc. (Class A),1652044,Communication Services,Interactive Media & Services
+GOOG,Alphabet Inc. (Class C),1652044,Communication Services,Interactive Media & Services
+MO,Altria,764180,Consumer Staples,Tobacco
+AMZN,Amazon,1018724,Consumer Discretionary,Broadline Retail
+AMCR,Amcor,1748790,Materials,Paper & Plastic Packaging Products & Materials
+AEE,Ameren,1002910,Utilities,Multi-Utilities
+AEP,American Electric Power,4904,Utilities,Electric Utilities
+AXP,American Express,4962,Financials,Consumer Finance
+AIG,American International Group,5272,Financials,Multi-line Insurance
+AMT,American Tower,1053507,Real Estate,Telecom Tower REITs
+AWK,American Water Works,1410636,Utilities,Water Utilities
+AMP,Ameriprise Financial,820027,Financials,Asset Management & Custody Banks
+AME,Ametek,1037868,Industrials,Electrical Components & Equipment
+AMGN,Amgen,318154,Health Care,Biotechnology
+APH,Amphenol,820313,Information Technology,Electronic Components
+ADI,Analog Devices,6281,Information Technology,Semiconductors
+AON,Aon plc,315293,Financials,Insurance Brokers
+APA,APA Corporation,1841666,Energy,Oil & Gas Exploration & Production
+APO,Apollo Global Management,1858681,Financials,Asset Management & Custody Banks
+AAPL,Apple Inc.,320193,Information Technology,"Technology Hardware, Storage & Peripherals"
+AMAT,Applied Materials,6951,Information Technology,Semiconductor Materials & Equipment
+APTV,Aptiv,1521332,Consumer Discretionary,Automotive Parts & Equipment
+ACGL,Arch Capital Group,947484,Financials,Property & Casualty Insurance
+ADM,Archer Daniels Midland,7084,Consumer Staples,Agricultural Products & Services
+ANET,Arista Networks,1596532,Information Technology,Communications Equipment
+AJG,Arthur J. Gallagher & Co.,354190,Financials,Insurance Brokers
+AIZ,Assurant,1267238,Financials,Multi-line Insurance
+T,AT&T,732717,Communication Services,Integrated Telecommunication Services
+ATO,Atmos Energy,731802,Utilities,Gas Utilities
+ADSK,Autodesk,769397,Information Technology,Application Software
+ADP,Automatic Data Processing,8670,Industrials,Human Resource & Employment Services
+AZO,AutoZone,866787,Consumer Discretionary,Automotive Retail
+AVB,AvalonBay Communities,915912,Real Estate,Multi-Family Residential REITs
+AVY,Avery Dennison,8818,Materials,Paper & Plastic Packaging Products & Materials
+AXON,Axon Enterprise,1069183,Industrials,Aerospace & Defense
+BKR,Baker Hughes,1701605,Energy,Oil & Gas Equipment & Services
+BALL,Ball Corporation,9389,Materials,"Metal, Glass & Plastic Containers"
+BAC,Bank of America,70858,Financials,Diversified Banks
+BAX,Baxter International,10456,Health Care,Health Care Equipment
+BDX,Becton Dickinson,10795,Health Care,Health Care Equipment
+BRK.B,Berkshire Hathaway,1067983,Financials,Multi-Sector Holdings
+BBY,Best Buy,764478,Consumer Discretionary,Computer & Electronics Retail
+TECH,Bio-Techne,842023,Health Care,Life Sciences Tools & Services
+BIIB,Biogen,875045,Health Care,Biotechnology
+BLK,BlackRock,2012383,Financials,Asset Management & Custody Banks
+BX,Blackstone Inc.,1393818,Financials,Asset Management & Custody Banks
+XYZ,"Block, Inc.",1512673,Financials,Transaction & Payment Processing Services
+BK,BNY Mellon,1390777,Financials,Asset Management & Custody Banks
+BA,Boeing,12927,Industrials,Aerospace & Defense
+BKNG,Booking Holdings,1075531,Consumer Discretionary,"Hotels, Resorts & Cruise Lines"
+BSX,Boston Scientific,885725,Health Care,Health Care Equipment
+BMY,Bristol Myers Squibb,14272,Health Care,Pharmaceuticals
+AVGO,Broadcom,1730168,Information Technology,Semiconductors
+BR,Broadridge Financial Solutions,1383312,Industrials,Data Processing & Outsourced Services
+BRO,Brown & Brown,79282,Financials,Insurance Brokers
+BF.B,Brown–Forman,14693,Consumer Staples,Distillers & Vintners
+BLDR,Builders FirstSource,1316835,Industrials,Building Products
+BG,Bunge Global,1996862,Consumer Staples,Agricultural Products & Services
+BXP,"BXP, Inc.",1037540,Real Estate,Office REITs
+CHRW,C.H. Robinson,1043277,Industrials,Air Freight & Logistics
+CDNS,Cadence Design Systems,813672,Information Technology,Application Software
+CZR,Caesars Entertainment,1590895,Consumer Discretionary,Casinos & Gaming
+CPT,Camden Property Trust,906345,Real Estate,Multi-Family Residential REITs
+CPB,Campbell's Company (The),16732,Consumer Staples,Packaged Foods & Meats
+COF,Capital One,927628,Financials,Consumer Finance
+CAH,Cardinal Health,721371,Health Care,Health Care Distributors
+KMX,CarMax,1170010,Consumer Discretionary,Automotive Retail
+CCL,Carnival,815097,Consumer Discretionary,"Hotels, Resorts & Cruise Lines"
+CARR,Carrier Global,1783180,Industrials,Building Products
+CAT,Caterpillar Inc.,18230,Industrials,Construction Machinery & Heavy Transportation Equipment
+CBOE,Cboe Global Markets,1374310,Financials,Financial Exchanges & Data
+CBRE,CBRE Group,1138118,Real Estate,Real Estate Services
+CDW,CDW Corporation,1402057,Information Technology,Technology Distributors
+COR,Cencora,1140859,Health Care,Health Care Distributors
+CNC,Centene Corporation,1071739,Health Care,Managed Health Care
+CNP,CenterPoint Energy,1130310,Utilities,Multi-Utilities
+CF,CF Industries,1324404,Materials,Fertilizers & Agricultural Chemicals
+CRL,Charles River Laboratories,1100682,Health Care,Life Sciences Tools & Services
+SCHW,Charles Schwab Corporation,316709,Financials,Investment Banking & Brokerage
+CHTR,Charter Communications,1091667,Communication Services,Cable & Satellite
+CVX,Chevron Corporation,93410,Energy,Integrated Oil & Gas
+CMG,Chipotle Mexican Grill,1058090,Consumer Discretionary,Restaurants
+CB,Chubb Limited,896159,Financials,Property & Casualty Insurance
+CHD,Church & Dwight,313927,Consumer Staples,Household Products
+CI,Cigna,1739940,Health Care,Health Care Services
+CINF,Cincinnati Financial,20286,Financials,Property & Casualty Insurance
+CTAS,Cintas,723254,Industrials,Diversified Support Services
+CSCO,Cisco,858877,Information Technology,Communications Equipment
+C,Citigroup,831001,Financials,Diversified Banks
+CFG,Citizens Financial Group,759944,Financials,Regional Banks
+CLX,Clorox,21076,Consumer Staples,Household Products
+CME,CME Group,1156375,Financials,Financial Exchanges & Data
+CMS,CMS Energy,811156,Utilities,Multi-Utilities
+KO,Coca-Cola Company (The),21344,Consumer Staples,Soft Drinks & Non-alcoholic Beverages
+CTSH,Cognizant,1058290,Information Technology,IT Consulting & Other Services
+COIN,Coinbase,1679788,Financials,Financial Exchanges & Data
+CL,Colgate-Palmolive,21665,Consumer Staples,Household Products
+CMCSA,Comcast,1166691,Communication Services,Cable & Satellite
+CAG,Conagra Brands,23217,Consumer Staples,Packaged Foods & Meats
+COP,ConocoPhillips,1163165,Energy,Oil & Gas Exploration & Production
+ED,Consolidated Edison,1047862,Utilities,Multi-Utilities
+STZ,Constellation Brands,16918,Consumer Staples,Distillers & Vintners
+CEG,Constellation Energy,1868275,Utilities,Electric Utilities
+COO,Cooper Companies (The),711404,Health Care,Health Care Supplies
+CPRT,Copart,900075,Industrials,Diversified Support Services
+GLW,Corning Inc.,24741,Information Technology,Electronic Components
+CPAY,Corpay,1175454,Financials,Transaction & Payment Processing Services
+CTVA,Corteva,1755672,Materials,Fertilizers & Agricultural Chemicals
+CSGP,CoStar Group,1057352,Real Estate,Real Estate Services
+COST,Costco,909832,Consumer Staples,Consumer Staples Merchandise Retail
+CTRA,Coterra,858470,Energy,Oil & Gas Exploration & Production
+CRWD,CrowdStrike,1535527,Information Technology,Systems Software
+CCI,Crown Castle,1051470,Real Estate,Telecom Tower REITs
+CSX,CSX Corporation,277948,Industrials,Rail Transportation
+CMI,Cummins,26172,Industrials,Construction Machinery & Heavy Transportation Equipment
+CVS,CVS Health,64803,Health Care,Health Care Services
+DHR,Danaher Corporation,313616,Health Care,Life Sciences Tools & Services
+DRI,Darden Restaurants,940944,Consumer Discretionary,Restaurants
+DDOG,Datadog,1561550,Information Technology,Application Software
+DVA,DaVita,927066,Health Care,Health Care Services
+DAY,Dayforce,1725057,Industrials,Human Resource & Employment Services
+DECK,Deckers Brands,910521,Consumer Discretionary,Footwear
+DE,Deere & Company,315189,Industrials,Agricultural & Farm Machinery
+DELL,Dell Technologies,1571996,Information Technology,"Technology Hardware, Storage & Peripherals"
+DAL,Delta Air Lines,27904,Industrials,Passenger Airlines
+DVN,Devon Energy,1090012,Energy,Oil & Gas Exploration & Production
+DXCM,Dexcom,1093557,Health Care,Health Care Equipment
+FANG,Diamondback Energy,1539838,Energy,Oil & Gas Exploration & Production
+DLR,Digital Realty,1297996,Real Estate,Data Center REITs
+DG,Dollar General,29534,Consumer Staples,Consumer Staples Merchandise Retail
+DLTR,Dollar Tree,935703,Consumer Staples,Consumer Staples Merchandise Retail
+D,Dominion Energy,715957,Utilities,Multi-Utilities
+DPZ,Domino's,1286681,Consumer Discretionary,Restaurants
+DASH,DoorDash,1792789,Consumer Discretionary,Specialized Consumer Services
+DOV,Dover Corporation,29905,Industrials,Industrial Machinery & Supplies & Components
+DOW,Dow Inc.,1751788,Materials,Commodity Chemicals
+DHI,D. R. Horton,882184,Consumer Discretionary,Homebuilding
+DTE,DTE Energy,936340,Utilities,Multi-Utilities
+DUK,Duke Energy,1326160,Utilities,Electric Utilities
+DD,DuPont,1666700,Materials,Specialty Chemicals
+EMN,Eastman Chemical Company,915389,Materials,Specialty Chemicals
+ETN,Eaton Corporation,1551182,Industrials,Electrical Components & Equipment
+EBAY,eBay Inc.,1065088,Consumer Discretionary,Broadline Retail
+ECL,Ecolab,31462,Materials,Specialty Chemicals
+EIX,Edison International,827052,Utilities,Electric Utilities
+EW,Edwards Lifesciences,1099800,Health Care,Health Care Equipment
+EA,Electronic Arts,712515,Communication Services,Interactive Home Entertainment
+ELV,Elevance Health,1156039,Health Care,Managed Health Care
+EMR,Emerson Electric,32604,Industrials,Electrical Components & Equipment
+ENPH,Enphase Energy,1463101,Information Technology,Semiconductor Materials & Equipment
+ETR,Entergy,65984,Utilities,Electric Utilities
+EOG,EOG Resources,821189,Energy,Oil & Gas Exploration & Production
+EPAM,EPAM Systems,1352010,Information Technology,IT Consulting & Other Services
+EQT,EQT Corporation,33213,Energy,Oil & Gas Exploration & Production
+EFX,Equifax,33185,Industrials,Research & Consulting Services
+EQIX,Equinix,1101239,Real Estate,Data Center REITs
+EQR,Equity Residential,906107,Real Estate,Multi-Family Residential REITs
+ERIE,Erie Indemnity,922621,Financials,Insurance Brokers
+ESS,Essex Property Trust,920522,Real Estate,Multi-Family Residential REITs
+EL,Estée Lauder Companies (The),1001250,Consumer Staples,Personal Care Products
+EG,Everest Group,1095073,Financials,Reinsurance
+EVRG,Evergy,1711269,Utilities,Electric Utilities
+ES,Eversource Energy,72741,Utilities,Electric Utilities
+EXC,Exelon,1109357,Utilities,Electric Utilities
+EXE,Expand Energy,895126,Energy,Oil & Gas Exploration & Production
+EXPE,Expedia Group,1324424,Consumer Discretionary,"Hotels, Resorts & Cruise Lines"
+EXPD,Expeditors International,746515,Industrials,Air Freight & Logistics
+EXR,Extra Space Storage,1289490,Real Estate,Self-Storage REITs
+XOM,ExxonMobil,34088,Energy,Integrated Oil & Gas
+FFIV,"F5, Inc.",1048695,Information Technology,Communications Equipment
+FDS,FactSet,1013237,Financials,Financial Exchanges & Data
+FICO,Fair Isaac,814547,Information Technology,Application Software
+FAST,Fastenal,815556,Industrials,Trading Companies & Distributors
+FRT,Federal Realty Investment Trust,34903,Real Estate,Retail REITs
+FDX,FedEx,1048911,Industrials,Air Freight & Logistics
+FIS,Fidelity National Information Services,1136893,Financials,Transaction & Payment Processing Services
+FITB,Fifth Third Bancorp,35527,Financials,Regional Banks
+FSLR,First Solar,1274494,Information Technology,Semiconductors
+FE,FirstEnergy,1031296,Utilities,Electric Utilities
+FI,Fiserv,798354,Financials,Transaction & Payment Processing Services
+F,Ford Motor Company,37996,Consumer Discretionary,Automobile Manufacturers
+FTNT,Fortinet,1262039,Information Technology,Systems Software
+FTV,Fortive,1659166,Industrials,Industrial Machinery & Supplies & Components
+FOXA,Fox Corporation (Class A),1754301,Communication Services,Broadcasting
+FOX,Fox Corporation (Class B),1754301,Communication Services,Broadcasting
+BEN,Franklin Resources,38777,Financials,Asset Management & Custody Banks
+FCX,Freeport-McMoRan,831259,Materials,Copper
+GRMN,Garmin,1121788,Consumer Discretionary,Consumer Electronics
+IT,Gartner,749251,Information Technology,IT Consulting & Other Services
+GE,GE Aerospace,40545,Industrials,Aerospace & Defense
+GEHC,GE HealthCare,1932393,Health Care,Health Care Equipment
+GEV,GE Vernova,1996810,Industrials,Heavy Electrical Equipment
+GEN,Gen Digital,849399,Information Technology,Systems Software
+GNRC,Generac,1474735,Industrials,Electrical Components & Equipment
+GD,General Dynamics,40533,Industrials,Aerospace & Defense
+GIS,General Mills,40704,Consumer Staples,Packaged Foods & Meats
+GM,General Motors,1467858,Consumer Discretionary,Automobile Manufacturers
+GPC,Genuine Parts Company,40987,Consumer Discretionary,Distributors
+GILD,Gilead Sciences,882095,Health Care,Biotechnology
+GPN,Global Payments,1123360,Financials,Transaction & Payment Processing Services
+GL,Globe Life,320335,Financials,Life & Health Insurance
+GDDY,GoDaddy,1609711,Information Technology,Internet Services & Infrastructure
+GS,Goldman Sachs,886982,Financials,Investment Banking & Brokerage
+HAL,Halliburton,45012,Energy,Oil & Gas Equipment & Services
+HIG,Hartford (The),874766,Financials,Property & Casualty Insurance
+HAS,Hasbro,46080,Consumer Discretionary,Leisure Products
+HCA,HCA Healthcare,860730,Health Care,Health Care Facilities
+DOC,Healthpeak Properties,765880,Real Estate,Health Care REITs
+HSIC,Henry Schein,1000228,Health Care,Health Care Distributors
+HSY,Hershey Company (The),47111,Consumer Staples,Packaged Foods & Meats
+HPE,Hewlett Packard Enterprise,1645590,Information Technology,"Technology Hardware, Storage & Peripherals"
+HLT,Hilton Worldwide,1585689,Consumer Discretionary,"Hotels, Resorts & Cruise Lines"
+HOLX,Hologic,859737,Health Care,Health Care Equipment
+HD,Home Depot (The),354950,Consumer Discretionary,Home Improvement Retail
+HON,Honeywell,773840,Industrials,Industrial Conglomerates
+HRL,Hormel Foods,48465,Consumer Staples,Packaged Foods & Meats
+HST,Host Hotels & Resorts,1070750,Real Estate,Hotel & Resort REITs
+HWM,Howmet Aerospace,4281,Industrials,Aerospace & Defense
+HPQ,HP Inc.,47217,Information Technology,"Technology Hardware, Storage & Peripherals"
+HUBB,Hubbell Incorporated,48898,Industrials,Industrial Machinery & Supplies & Components
+HUM,Humana,49071,Health Care,Managed Health Care
+HBAN,Huntington Bancshares,49196,Financials,Regional Banks
+HII,Huntington Ingalls Industries,1501585,Industrials,Aerospace & Defense
+IBM,IBM,51143,Information Technology,IT Consulting & Other Services
+IEX,IDEX Corporation,832101,Industrials,Industrial Machinery & Supplies & Components
+IDXX,Idexx Laboratories,874716,Health Care,Health Care Equipment
+ITW,Illinois Tool Works,49826,Industrials,Industrial Machinery & Supplies & Components
+INCY,Incyte,879169,Health Care,Biotechnology
+IR,Ingersoll Rand,1699150,Industrials,Industrial Machinery & Supplies & Components
+PODD,Insulet Corporation,1145197,Health Care,Health Care Equipment
+INTC,Intel,50863,Information Technology,Semiconductors
+ICE,Intercontinental Exchange,1571949,Financials,Financial Exchanges & Data
+IFF,International Flavors & Fragrances,51253,Materials,Specialty Chemicals
+IP,International Paper,51434,Materials,Paper & Plastic Packaging Products & Materials
+IPG,Interpublic Group of Companies (The),51644,Communication Services,Advertising
+INTU,Intuit,896878,Information Technology,Application Software
+ISRG,Intuitive Surgical,1035267,Health Care,Health Care Equipment
+IVZ,Invesco,914208,Financials,Asset Management & Custody Banks
+INVH,Invitation Homes,1687229,Real Estate,Single-Family Residential REITs
+IQV,IQVIA,1478242,Health Care,Life Sciences Tools & Services
+IRM,Iron Mountain,1020569,Real Estate,Other Specialized REITs
+JBHT,J.B. Hunt,728535,Industrials,Cargo Ground Transportation
+JBL,Jabil,898293,Information Technology,Electronic Manufacturing Services
+JKHY,Jack Henry & Associates,779152,Financials,Transaction & Payment Processing Services
+J,Jacobs Solutions,52988,Industrials,Construction & Engineering
+JNJ,Johnson & Johnson,200406,Health Care,Pharmaceuticals
+JCI,Johnson Controls,833444,Industrials,Building Products
+JPM,JPMorgan Chase,19617,Financials,Diversified Banks
+K,Kellanova,55067,Consumer Staples,Packaged Foods & Meats
+KVUE,Kenvue,1944048,Consumer Staples,Personal Care Products
+KDP,Keurig Dr Pepper,1418135,Consumer Staples,Soft Drinks & Non-alcoholic Beverages
+KEY,KeyCorp,91576,Financials,Regional Banks
+KEYS,Keysight Technologies,1601046,Information Technology,Electronic Equipment & Instruments
+KMB,Kimberly-Clark,55785,Consumer Staples,Household Products
+KIM,Kimco Realty,879101,Real Estate,Retail REITs
+KMI,Kinder Morgan,1506307,Energy,Oil & Gas Storage & Transportation
+KKR,KKR & Co.,1404912,Financials,Asset Management & Custody Banks
+KLAC,KLA Corporation,319201,Information Technology,Semiconductor Materials & Equipment
+KHC,Kraft Heinz,1637459,Consumer Staples,Packaged Foods & Meats
+KR,Kroger,56873,Consumer Staples,Food Retail
+LHX,L3Harris,202058,Industrials,Aerospace & Defense
+LH,Labcorp,920148,Health Care,Health Care Services
+LRCX,Lam Research,707549,Information Technology,Semiconductor Materials & Equipment
+LW,Lamb Weston,1679273,Consumer Staples,Packaged Foods & Meats
+LVS,Las Vegas Sands,1300514,Consumer Discretionary,Casinos & Gaming
+LDOS,Leidos,1336920,Industrials,Diversified Support Services
+LEN,Lennar,920760,Consumer Discretionary,Homebuilding
+LII,Lennox International,1069202,Industrials,Building Products
+LLY,Lilly (Eli),59478,Health Care,Pharmaceuticals
+LIN,Linde plc,1707925,Materials,Industrial Gases
+LYV,Live Nation Entertainment,1335258,Communication Services,Movies & Entertainment
+LKQ,LKQ Corporation,1065696,Consumer Discretionary,Distributors
+LMT,Lockheed Martin,936468,Industrials,Aerospace & Defense
+L,Loews Corporation,60086,Financials,Multi-line Insurance
+LOW,Lowe's,60667,Consumer Discretionary,Home Improvement Retail
+LULU,Lululemon Athletica,1397187,Consumer Discretionary,"Apparel, Accessories & Luxury Goods"
+LYB,LyondellBasell,1489393,Materials,Specialty Chemicals
+MTB,M&T Bank,36270,Financials,Regional Banks
+MPC,Marathon Petroleum,1510295,Energy,Oil & Gas Refining & Marketing
+MKTX,MarketAxess,1278021,Financials,Financial Exchanges & Data
+MAR,Marriott International,1048286,Consumer Discretionary,"Hotels, Resorts & Cruise Lines"
+MMC,Marsh McLennan,62709,Financials,Insurance Brokers
+MLM,Martin Marietta Materials,916076,Materials,Construction Materials
+MAS,Masco,62996,Industrials,Building Products
+MA,Mastercard,1141391,Financials,Transaction & Payment Processing Services
+MTCH,Match Group,891103,Communication Services,Interactive Media & Services
+MKC,McCormick & Company,63754,Consumer Staples,Packaged Foods & Meats
+MCD,McDonald's,63908,Consumer Discretionary,Restaurants
+MCK,McKesson Corporation,927653,Health Care,Health Care Distributors
+MDT,Medtronic,1613103,Health Care,Health Care Equipment
+MRK,Merck & Co.,310158,Health Care,Pharmaceuticals
+META,Meta Platforms,1326801,Communication Services,Interactive Media & Services
+MET,MetLife,1099219,Financials,Life & Health Insurance
+MTD,Mettler Toledo,1037646,Health Care,Life Sciences Tools & Services
+MGM,MGM Resorts,789570,Consumer Discretionary,Casinos & Gaming
+MCHP,Microchip Technology,827054,Information Technology,Semiconductors
+MU,Micron Technology,723125,Information Technology,Semiconductors
+MSFT,Microsoft,789019,Information Technology,Systems Software
+MAA,Mid-America Apartment Communities,912595,Real Estate,Multi-Family Residential REITs
+MRNA,Moderna,1682852,Health Care,Biotechnology
+MHK,Mohawk Industries,851968,Consumer Discretionary,Home Furnishings
+MOH,Molina Healthcare,1179929,Health Care,Managed Health Care
+TAP,Molson Coors Beverage Company,24545,Consumer Staples,Brewers
+MDLZ,Mondelez International,1103982,Consumer Staples,Packaged Foods & Meats
+MPWR,Monolithic Power Systems,1280452,Information Technology,Semiconductors
+MNST,Monster Beverage,865752,Consumer Staples,Soft Drinks & Non-alcoholic Beverages
+MCO,Moody's Corporation,1059556,Financials,Financial Exchanges & Data
+MS,Morgan Stanley,895421,Financials,Investment Banking & Brokerage
+MOS,Mosaic Company (The),1285785,Materials,Fertilizers & Agricultural Chemicals
+MSI,Motorola Solutions,68505,Information Technology,Communications Equipment
+MSCI,MSCI Inc.,1408198,Financials,Financial Exchanges & Data
+NDAQ,"Nasdaq, Inc.",1120193,Financials,Financial Exchanges & Data
+NTAP,NetApp,1002047,Information Technology,"Technology Hardware, Storage & Peripherals"
+NFLX,Netflix,1065280,Communication Services,Movies & Entertainment
+NEM,Newmont,1164727,Materials,Gold
+NWSA,News Corp (Class A),1564708,Communication Services,Publishing
+NWS,News Corp (Class B),1564708,Communication Services,Publishing
+NEE,NextEra Energy,753308,Utilities,Multi-Utilities
+NKE,"Nike, Inc.",320187,Consumer Discretionary,"Apparel, Accessories & Luxury Goods"
+NI,NiSource,1111711,Utilities,Multi-Utilities
+NDSN,Nordson Corporation,72331,Industrials,Industrial Machinery & Supplies & Components
+NSC,Norfolk Southern,702165,Industrials,Rail Transportation
+NTRS,Northern Trust,73124,Financials,Asset Management & Custody Banks
+NOC,Northrop Grumman,1133421,Industrials,Aerospace & Defense
+NCLH,Norwegian Cruise Line Holdings,1513761,Consumer Discretionary,"Hotels, Resorts & Cruise Lines"
+NRG,NRG Energy,1013871,Utilities,Independent Power Producers & Energy Traders
+NUE,Nucor,73309,Materials,Steel
+NVDA,Nvidia,1045810,Information Technology,Semiconductors
+NVR,"NVR, Inc.",906163,Consumer Discretionary,Homebuilding
+NXPI,NXP Semiconductors,1413447,Information Technology,Semiconductors
+ORLY,O’Reilly Automotive,898173,Consumer Discretionary,Automotive Retail
+OXY,Occidental Petroleum,797468,Energy,Oil & Gas Exploration & Production
+ODFL,Old Dominion,878927,Industrials,Cargo Ground Transportation
+OMC,Omnicom Group,29989,Communication Services,Advertising
+ON,ON Semiconductor,1097864,Information Technology,Semiconductors
+OKE,Oneok,1039684,Energy,Oil & Gas Storage & Transportation
+ORCL,Oracle Corporation,1341439,Information Technology,Application Software
+OTIS,Otis Worldwide,1781335,Industrials,Industrial Machinery & Supplies & Components
+PCAR,Paccar,75362,Industrials,Construction Machinery & Heavy Transportation Equipment
+PKG,Packaging Corporation of America,75677,Materials,Paper & Plastic Packaging Products & Materials
+PLTR,Palantir Technologies,1321655,Information Technology,Application Software
+PANW,Palo Alto Networks,1327567,Information Technology,Systems Software
+PH,Parker Hannifin,76334,Industrials,Industrial Machinery & Supplies & Components
+PAYX,Paychex,723531,Industrials,Human Resource & Employment Services
+PAYC,Paycom,1590955,Industrials,Human Resource & Employment Services
+PYPL,PayPal,1633917,Financials,Transaction & Payment Processing Services
+PNR,Pentair,77360,Industrials,Industrial Machinery & Supplies & Components
+PEP,PepsiCo,77476,Consumer Staples,Soft Drinks & Non-alcoholic Beverages
+PFE,Pfizer,78003,Health Care,Pharmaceuticals
+PCG,PG&E Corporation,1004980,Utilities,Multi-Utilities
+PM,Philip Morris International,1413329,Consumer Staples,Tobacco
+PSX,Phillips 66,1534701,Energy,Oil & Gas Refining & Marketing
+PNW,Pinnacle West Capital,764622,Utilities,Multi-Utilities
+PNC,PNC Financial Services,713676,Financials,Diversified Banks
+POOL,Pool Corporation,945841,Consumer Discretionary,Distributors
+PPG,PPG Industries,79879,Materials,Specialty Chemicals
+PPL,PPL Corporation,922224,Utilities,Electric Utilities
+PFG,Principal Financial Group,1126328,Financials,Life & Health Insurance
+PG,Procter & Gamble,80424,Consumer Staples,Personal Care Products
+PGR,Progressive Corporation,80661,Financials,Property & Casualty Insurance
+PLD,Prologis,1045609,Real Estate,Industrial REITs
+PRU,Prudential Financial,1137774,Financials,Life & Health Insurance
+PEG,Public Service Enterprise Group,788784,Utilities,Electric Utilities
+PTC,PTC Inc.,857005,Information Technology,Application Software
+PSA,Public Storage,1393311,Real Estate,Self-Storage REITs
+PHM,PulteGroup,822416,Consumer Discretionary,Homebuilding
+PWR,Quanta Services,1050915,Industrials,Construction & Engineering
+QCOM,Qualcomm,804328,Information Technology,Semiconductors
+DGX,Quest Diagnostics,1022079,Health Care,Health Care Services
+RL,Ralph Lauren Corporation,1037038,Consumer Discretionary,"Apparel, Accessories & Luxury Goods"
+RJF,Raymond James Financial,720005,Financials,Investment Banking & Brokerage
+RTX,RTX Corporation,101829,Industrials,Aerospace & Defense
+O,Realty Income,726728,Real Estate,Retail REITs
+REG,Regency Centers,910606,Real Estate,Retail REITs
+REGN,Regeneron Pharmaceuticals,872589,Health Care,Biotechnology
+RF,Regions Financial Corporation,1281761,Financials,Regional Banks
+RSG,Republic Services,1060391,Industrials,Environmental & Facilities Services
+RMD,ResMed,943819,Health Care,Health Care Equipment
+RVTY,Revvity,31791,Health Care,Health Care Equipment
+ROK,Rockwell Automation,1024478,Industrials,Electrical Components & Equipment
+ROL,"Rollins, Inc.",84839,Industrials,Environmental & Facilities Services
+ROP,Roper Technologies,882835,Information Technology,Electronic Equipment & Instruments
+ROST,Ross Stores,745732,Consumer Discretionary,Apparel Retail
+RCL,Royal Caribbean Group,884887,Consumer Discretionary,"Hotels, Resorts & Cruise Lines"
+SPGI,S&P Global,64040,Financials,Financial Exchanges & Data
+CRM,Salesforce,1108524,Information Technology,Application Software
+SBAC,SBA Communications,1034054,Real Estate,Telecom Tower REITs
+SLB,Schlumberger,87347,Energy,Oil & Gas Equipment & Services
+STX,Seagate Technology,1137789,Information Technology,"Technology Hardware, Storage & Peripherals"
+SRE,Sempra,1032208,Utilities,Multi-Utilities
+NOW,ServiceNow,1373715,Information Technology,Systems Software
+SHW,Sherwin-Williams,89800,Materials,Specialty Chemicals
+SPG,Simon Property Group,1063761,Real Estate,Retail REITs
+SWKS,Skyworks Solutions,4127,Information Technology,Semiconductors
+SJM,J.M. Smucker Company (The),91419,Consumer Staples,Packaged Foods & Meats
+SW,Smurfit Westrock,2005951,Materials,Paper & Plastic Packaging Products & Materials
+SNA,Snap-on,91440,Industrials,Industrial Machinery & Supplies & Components
+SOLV,Solventum,1964738,Health Care,Health Care Technology
+SO,Southern Company,92122,Utilities,Electric Utilities
+LUV,Southwest Airlines,92380,Industrials,Passenger Airlines
+SWK,Stanley Black & Decker,93556,Industrials,Industrial Machinery & Supplies & Components
+SBUX,Starbucks,829224,Consumer Discretionary,Restaurants
+STT,State Street Corporation,93751,Financials,Asset Management & Custody Banks
+STLD,Steel Dynamics,1022671,Materials,Steel
+STE,Steris,1757898,Health Care,Health Care Equipment
+SYK,Stryker Corporation,310764,Health Care,Health Care Equipment
+SMCI,Supermicro,1375365,Information Technology,"Technology Hardware, Storage & Peripherals"
+SYF,Synchrony Financial,1601712,Financials,Consumer Finance
+SNPS,Synopsys,883241,Information Technology,Application Software
+SYY,Sysco,96021,Consumer Staples,Food Distributors
+TMUS,T-Mobile US,1283699,Communication Services,Wireless Telecommunication Services
+TROW,T. Rowe Price,1113169,Financials,Asset Management & Custody Banks
+TTWO,Take-Two Interactive,946581,Communication Services,Interactive Home Entertainment
+TPR,"Tapestry, Inc.",1116132,Consumer Discretionary,"Apparel, Accessories & Luxury Goods"
+TRGP,Targa Resources,1389170,Energy,Oil & Gas Storage & Transportation
+TGT,Target Corporation,27419,Consumer Staples,Consumer Staples Merchandise Retail
+TEL,TE Connectivity,1385157,Information Technology,Electronic Manufacturing Services
+TDY,Teledyne Technologies,1094285,Information Technology,Electronic Equipment & Instruments
+TER,Teradyne,97210,Information Technology,Semiconductor Materials & Equipment
+TSLA,"Tesla, Inc.",1318605,Consumer Discretionary,Automobile Manufacturers
+TXN,Texas Instruments,97476,Information Technology,Semiconductors
+TPL,Texas Pacific Land Corporation,1811074,Energy,Oil & Gas Exploration & Production
+TXT,Textron,217346,Industrials,Aerospace & Defense
+TMO,Thermo Fisher Scientific,97745,Health Care,Life Sciences Tools & Services
+TJX,TJX Companies,109198,Consumer Discretionary,Apparel Retail
+TKO,TKO Group Holdings,1973266,Communication Services,Movies & Entertainment
+TTD,Trade Desk (The),1671933,Communication Services,Advertising
+TSCO,Tractor Supply,916365,Consumer Discretionary,Other Specialty Retail
+TT,Trane Technologies,1466258,Industrials,Building Products
+TDG,TransDigm Group,1260221,Industrials,Aerospace & Defense
+TRV,Travelers Companies (The),86312,Financials,Property & Casualty Insurance
+TRMB,Trimble Inc.,864749,Information Technology,Electronic Equipment & Instruments
+TFC,Truist Financial,92230,Financials,Diversified Banks
+TYL,Tyler Technologies,860731,Information Technology,Application Software
+TSN,Tyson Foods,100493,Consumer Staples,Packaged Foods & Meats
+USB,U.S. Bancorp,36104,Financials,Diversified Banks
+UBER,Uber,1543151,Industrials,Passenger Ground Transportation
+UDR,"UDR, Inc.",74208,Real Estate,Multi-Family Residential REITs
+ULTA,Ulta Beauty,1403568,Consumer Discretionary,Other Specialty Retail
+UNP,Union Pacific Corporation,100885,Industrials,Rail Transportation
+UAL,United Airlines Holdings,100517,Industrials,Passenger Airlines
+UPS,United Parcel Service,1090727,Industrials,Air Freight & Logistics
+URI,United Rentals,1067701,Industrials,Trading Companies & Distributors
+UNH,UnitedHealth Group,731766,Health Care,Managed Health Care
+UHS,Universal Health Services,352915,Health Care,Health Care Facilities
+VLO,Valero Energy,1035002,Energy,Oil & Gas Refining & Marketing
+VTR,Ventas,740260,Real Estate,Health Care REITs
+VLTO,Veralto,1967680,Industrials,Environmental & Facilities Services
+VRSN,Verisign,1014473,Information Technology,Internet Services & Infrastructure
+VRSK,Verisk Analytics,1442145,Industrials,Research & Consulting Services
+VZ,Verizon,732712,Communication Services,Integrated Telecommunication Services
+VRTX,Vertex Pharmaceuticals,875320,Health Care,Biotechnology
+VTRS,Viatris,1792044,Health Care,Pharmaceuticals
+VICI,Vici Properties,1705696,Real Estate,Hotel & Resort REITs
+V,Visa Inc.,1403161,Financials,Transaction & Payment Processing Services
+VST,Vistra Corp.,1692819,Utilities,Electric Utilities
+VMC,Vulcan Materials Company,1396009,Materials,Construction Materials
+WRB,W. R. Berkley Corporation,11544,Financials,Property & Casualty Insurance
+GWW,W. W. Grainger,277135,Industrials,Industrial Machinery & Supplies & Components
+WAB,Wabtec,943452,Industrials,Construction Machinery & Heavy Transportation Equipment
+WBA,Walgreens Boots Alliance,1618921,Consumer Staples,Drug Retail
+WMT,Walmart,104169,Consumer Staples,Consumer Staples Merchandise Retail
+DIS,Walt Disney Company (The),1744489,Communication Services,Movies & Entertainment
+WBD,Warner Bros. Discovery,1437107,Communication Services,Broadcasting
+WM,Waste Management,823768,Industrials,Environmental & Facilities Services
+WAT,Waters Corporation,1000697,Health Care,Life Sciences Tools & Services
+WEC,WEC Energy Group,783325,Utilities,Electric Utilities
+WFC,Wells Fargo,72971,Financials,Diversified Banks
+WELL,Welltower,766704,Real Estate,Health Care REITs
+WST,West Pharmaceutical Services,105770,Health Care,Health Care Supplies
+WDC,Western Digital,106040,Information Technology,"Technology Hardware, Storage & Peripherals"
+WY,Weyerhaeuser,106535,Real Estate,Timber REITs
+WSM,"Williams-Sonoma, Inc.",719955,Consumer Discretionary,Homefurnishing Retail
+WMB,Williams Companies,107263,Energy,Oil & Gas Storage & Transportation
+WTW,Willis Towers Watson,1140536,Financials,Insurance Brokers
+WDAY,"Workday, Inc.",1327811,Information Technology,Application Software
+WYNN,Wynn Resorts,1174922,Consumer Discretionary,Casinos & Gaming
+XEL,Xcel Energy,72903,Utilities,Multi-Utilities
+XYL,Xylem Inc.,1524472,Industrials,Industrial Machinery & Supplies & Components
+YUM,Yum! Brands,1041061,Consumer Discretionary,Restaurants
+ZBRA,Zebra Technologies,877212,Information Technology,Electronic Equipment & Instruments
+ZBH,Zimmer Biomet,1136869,Health Care,Health Care Equipment
+ZTS,Zoetis,1555280,Health Care,Pharmaceuticals
