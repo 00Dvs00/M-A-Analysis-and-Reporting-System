@@ -1,0 +1,19 @@
+{
+  "company_ticker": "IONQ",
+  "passed": false,
+  "issues": [
+    {
+      "metric": "EV",
+      "expected": 21139195176,
+      "actual": 19320961024,
+      "abs_difference": 1818234152,
+      "pct_difference": 0.08601245869872563,
+      "severity": "ERROR",
+      "threshold": 0.005,
+      "details": "Recalculated EV differs from ingested value by 8.60%",
+      "timestamp": "2025-09-19T13:16:01.907593"
+    }
+  ],
+  "validation_time": "2025-09-19T13:16:01.907593",
+  "has_blocking_issues": true
+}

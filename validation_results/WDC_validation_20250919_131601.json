@@ -1,0 +1,19 @@
+{
+  "company_ticker": "WDC",
+  "passed": false,
+  "issues": [
+    {
+      "metric": "EV",
+      "expected": 36478861312,
+      "actual": 0,
+      "abs_difference": 36478861312,
+      "pct_difference": 1.0,
+      "severity": "ERROR",
+      "threshold": 0.005,
+      "details": "Recalculated EV differs from ingested value by 100.00%",
+      "timestamp": "2025-09-19T13:16:01.904089"
+    }
+  ],
+  "validation_time": "2025-09-19T13:16:01.903083",
+  "has_blocking_issues": true
+}

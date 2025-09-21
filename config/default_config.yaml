@@ -1,0 +1,69 @@
+# Default configuration for the M&A Analysis System
+database:
+  host: localhost
+  port: 5432
+  name: sec_data
+  user: sec_user
+
+analysis:
+  screens:
+    market_cap_min: 1000000000  # $1B minimum market cap
+    revenue_min: 100000000      # $100M minimum revenue
+    liquidity_min: 0.8          # Current ratio minimum
+  
+  metrics:
+    - ev_to_revenue
+    - ev_to_ebitda
+    - price_to_earnings
+    - price_to_book
+  
+  outlier_rules:
+    zscore_threshold: 2.5
+    iqr_multiplier: 1.5
+  
+  fx_policy:
+    base_currency: USD
+    conversion_date: report_date  # Options: report_date, analysis_date
+    fallback_source: yahoo       # Options: yahoo, bloomberg, manual
+
+# Data validation configuration
+validation:
+  enabled: true  # Master switch to enable/disable validation
+  
+  # Warning thresholds - Issues that exceed these thresholds will be logged as warnings
+  thresholds:
+    market_cap: 0.01   # 1% tolerance for Market Cap
+    enterprise_value: 0.005  # 0.5% tolerance for Enterprise Value
+    eps: 0.01  # 1% tolerance for EPS
+    multiples: 0.02  # 2% tolerance for multiples (EV/Sales, EV/EBITDA, P/E)
+  
+  # Blocking thresholds - Issues that exceed these thresholds will halt processing
+  blocking_thresholds:
+    market_cap: 0.02   # 2% blocking threshold for Market Cap
+    enterprise_value: 0.01  # 1% blocking threshold for Enterprise Value
+    eps: 0.02  # 2% blocking threshold for EPS
+    multiples: 0.05  # 5% blocking threshold for multiples
+  
+  # Metrics to validate
+  metrics_to_validate:
+    - Market Cap
+    - EV
+    - EPS Forward
+    - P/E Forward
+    - EV/Sales LTM
+    - EV/EBITDA LTM
+  
+  # Validation reporting
+  reporting:
+    log_to_file: true
+    log_file: validation.log
+    save_results: true
+    results_dir: validation_results
+
+logging:
+  level: INFO
+  format: json
+  output:
+    - file
+    - console
+  file_path: batch_processing.log

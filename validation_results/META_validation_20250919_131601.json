@@ -1,0 +1,19 @@
+{
+  "company_ticker": "META",
+  "passed": false,
+  "issues": [
+    {
+      "metric": "Market Cap",
+      "expected": 1692332975020.0,
+      "actual": 1960098398208,
+      "abs_difference": 267765423188.0,
+      "pct_difference": 0.15822265898047372,
+      "severity": "ERROR",
+      "threshold": 0.01,
+      "details": "Recalculated Market Cap differs from ingested value by 15.82%",
+      "timestamp": "2025-09-19T13:16:01.914594"
+    }
+  ],
+  "validation_time": "2025-09-19T13:16:01.914594",
+  "has_blocking_issues": true
+}

@@ -1,4 +1,4 @@
-#!c:\Users\divye\OneDrive\Desktop\DIVYESH\Python\M&A\.venv\Scripts\python.exe
+#!C:\Users\divye\OneDrive\Desktop\DIVYESH\Python\M&A\.venv\Scripts\python.exe
 
 import datetime
 import os

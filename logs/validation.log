@@ -1,0 +1,208 @@
+2025-09-19 00:04:44,220 - INFO - Validation engine initialized with thresholds: {'market_cap': 0.005, 'enterprise_value': 0.001, 'eps': 0.005, 'multiples': 0.01}
+2025-09-19 00:04:44,221 - INFO - Starting validation for TEST
+2025-09-19 00:04:44,221 - INFO - Validation passed for TEST with 0 non-blocking issues
+2025-09-19 00:04:44,221 - INFO - Starting validation for SMALL
+2025-09-19 00:04:44,221 - INFO - Validation passed for SMALL with 0 non-blocking issues
+2025-09-19 00:04:44,221 - INFO - Starting validation for MEDIUM
+2025-09-19 00:04:44,221 - WARNING - VALIDATION WARNING: Market Cap differs by 0.80% (calculated=100000000.00, actual=100800000.00)
+2025-09-19 00:04:44,222 - ERROR - VALIDATION ERROR: EV differs by 0.50% (calculated=130800000.00, actual=130150000.00)
+2025-09-19 00:04:44,222 - ERROR - Validation failed for MEDIUM with blocking issues
+2025-09-19 00:04:44,222 - ERROR -   - EV: expected=130800000.0, actual=130150000.0, diff=0.50%, threshold=0.10%
+2025-09-19 00:04:44,305 - INFO - Validation engine initialized with thresholds: {'market_cap': 0.005, 'enterprise_value': 0.001, 'eps': 0.005, 'multiples': 0.01}
+2025-09-19 00:04:44,305 - INFO - Starting validation for TEST
+2025-09-19 00:04:44,305 - INFO - Validation passed for TEST with 0 non-blocking issues
+2025-09-19 00:04:44,305 - INFO - Starting validation for SMALL
+2025-09-19 00:04:44,306 - INFO - Validation passed for SMALL with 0 non-blocking issues
+2025-09-19 00:04:44,306 - INFO - Starting validation for MEDIUM
+2025-09-19 00:04:44,306 - WARNING - VALIDATION WARNING: Market Cap differs by 0.80% (calculated=100000000.00, actual=100800000.00)
+2025-09-19 00:04:44,306 - ERROR - VALIDATION ERROR: EV differs by 0.50% (calculated=130800000.00, actual=130150000.00)
+2025-09-19 00:04:44,306 - ERROR - Validation failed for MEDIUM with blocking issues
+2025-09-19 00:04:44,306 - ERROR -   - EV: expected=130800000.0, actual=130150000.0, diff=0.50%, threshold=0.10%
+2025-09-19 00:04:44,306 - INFO - Starting validation for LARGE
+2025-09-19 00:04:44,306 - ERROR - VALIDATION ERROR: Market Cap differs by 2.00% (calculated=100000000.00, actual=102000000.00)
+2025-09-19 00:04:44,307 - ERROR - VALIDATION ERROR: EV differs by 1.14% (calculated=132000000.00, actual=130500000.00)
+2025-09-19 00:04:44,307 - ERROR - VALIDATION ERROR: P/E Forward differs by 4.00% (calculated=19.23, actual=20.00)
+2025-09-19 00:04:44,307 - ERROR - Validation failed for LARGE with blocking issues
+2025-09-19 00:04:44,307 - ERROR -   - Market Cap: expected=100000000.0, actual=102000000.0, diff=2.00%, threshold=0.50%
+2025-09-19 00:04:44,307 - ERROR -   - EV: expected=132000000.0, actual=130500000.0, diff=1.14%, threshold=0.10%
+2025-09-19 00:04:44,307 - ERROR -   - P/E Forward: expected=19.23076923076923, actual=20.0, diff=4.00%, threshold=1.00%
+2025-09-19 00:04:44,307 - ERROR - Validation failed for 2 companies: MEDIUM, LARGE
+2025-09-19 00:06:56,782 - INFO - Validation engine initialized with thresholds: {'market_cap': 0.005, 'enterprise_value': 0.001, 'eps': 0.005, 'multiples': 0.01}
+2025-09-19 00:06:56,783 - INFO - Starting validation for TEST
+2025-09-19 00:06:56,783 - INFO - Validation passed for TEST with 0 non-blocking issues
+2025-09-19 00:06:56,783 - INFO - Starting validation for SMALL
+2025-09-19 00:06:56,783 - WARNING - VALIDATION WARNING: Market Cap differs by 0.90% (calculated=100000000.00, actual=100900000.00)
+2025-09-19 00:06:56,783 - WARNING - VALIDATION WARNING: EV differs by 0.19% (calculated=130900000.00, actual=130650000.00)
+2025-09-19 00:06:56,784 - WARNING - VALIDATION WARNING: P/E Forward differs by 1.00% (calculated=19.80, actual=20.00)
+2025-09-19 00:06:56,784 - INFO - Validation passed for SMALL with 3 non-blocking issues
+2025-09-19 00:06:56,784 - INFO - Starting validation for MEDIUM
+2025-09-19 00:06:56,784 - ERROR - VALIDATION ERROR: Market Cap differs by 1.50% (calculated=100000000.00, actual=101500000.00)
+2025-09-19 00:06:56,784 - WARNING - VALIDATION WARNING: EV differs by 0.15% (calculated=131500000.00, actual=131300000.00)
+2025-09-19 00:06:56,784 - WARNING - VALIDATION WARNING: P/E Forward differs by 2.00% (calculated=19.61, actual=20.00)
+2025-09-19 00:06:56,784 - ERROR - Validation failed for MEDIUM with blocking issues
+2025-09-19 00:06:56,785 - ERROR -   - Market Cap: expected=100000000.0, actual=101500000.0, diff=1.50%, threshold=0.50%
+2025-09-19 00:06:56,890 - INFO - Validation engine initialized with thresholds: {'market_cap': 0.01, 'enterprise_value': 0.005, 'eps': 0.01, 'multiples': 0.02}
+2025-09-19 00:06:56,890 - INFO - Starting validation for TEST
+2025-09-19 00:06:56,891 - INFO - Validation passed for TEST with 0 non-blocking issues
+2025-09-19 00:06:56,891 - INFO - Starting validation for SMALL
+2025-09-19 00:06:56,891 - INFO - Validation passed for SMALL with 0 non-blocking issues
+2025-09-19 00:06:56,891 - INFO - Starting validation for MEDIUM
+2025-09-19 00:06:56,892 - WARNING - VALIDATION WARNING: Market Cap differs by 1.50% (calculated=100000000.00, actual=101500000.00)
+2025-09-19 00:06:56,892 - INFO - Validation passed for MEDIUM with 1 non-blocking issues
+2025-09-19 00:06:56,892 - INFO - Starting validation for LARGE
+2025-09-19 00:06:56,892 - ERROR - VALIDATION ERROR: Market Cap differs by 3.00% (calculated=100000000.00, actual=103000000.00)
+2025-09-19 00:06:56,892 - WARNING - VALIDATION WARNING: EV differs by 0.75% (calculated=133000000.00, actual=132000000.00)
+2025-09-19 00:06:56,892 - ERROR - VALIDATION ERROR: P/E Forward differs by 10.00% (calculated=18.18, actual=20.00)
+2025-09-19 00:06:56,893 - ERROR - Validation failed for LARGE with blocking issues
+2025-09-19 00:06:56,893 - ERROR -   - Market Cap: expected=100000000.0, actual=103000000.0, diff=3.00%, threshold=1.00%
+2025-09-19 00:06:56,893 - ERROR -   - P/E Forward: expected=18.181818181818183, actual=20.0, diff=10.00%, threshold=2.00%
+2025-09-19 00:06:56,893 - ERROR - Validation failed for 1 companies: LARGE
+2025-09-19 00:07:16,815 - INFO - Validation engine initialized with thresholds: {'market_cap': 0.005, 'enterprise_value': 0.001, 'eps': 0.005, 'multiples': 0.01}
+2025-09-19 00:07:16,816 - INFO - Starting validation for TEST
+2025-09-19 00:07:16,816 - INFO - Validation passed for TEST with 0 non-blocking issues
+2025-09-19 00:07:16,816 - INFO - Starting validation for SMALL
+2025-09-19 00:07:16,816 - WARNING - VALIDATION WARNING: Market Cap differs by 0.90% (calculated=100000000.00, actual=100900000.00)
+2025-09-19 00:07:16,817 - WARNING - VALIDATION WARNING: EV differs by 0.19% (calculated=130900000.00, actual=130650000.00)
+2025-09-19 00:07:16,817 - WARNING - VALIDATION WARNING: P/E Forward differs by 1.00% (calculated=19.80, actual=20.00)
+2025-09-19 00:07:16,817 - INFO - Validation passed for SMALL with 3 non-blocking issues
+2025-09-19 00:07:16,817 - INFO - Starting validation for MEDIUM
+2025-09-19 00:07:16,817 - WARNING - VALIDATION WARNING: Market Cap differs by 1.00% (calculated=100000000.00, actual=101000000.00)
+2025-09-19 00:07:16,818 - ERROR - VALIDATION ERROR: EV differs by 0.23% (calculated=131000000.00, actual=131300000.00)
+2025-09-19 00:07:16,818 - WARNING - VALIDATION WARNING: P/E Forward differs by 2.00% (calculated=19.61, actual=20.00)
+2025-09-19 00:07:16,818 - ERROR - Validation failed for MEDIUM with blocking issues
+2025-09-19 00:07:16,818 - ERROR -   - EV: expected=131000000.0, actual=131300000.0, diff=0.23%, threshold=0.10%
+2025-09-19 00:07:16,901 - INFO - Validation engine initialized with thresholds: {'market_cap': 0.01, 'enterprise_value': 0.005, 'eps': 0.01, 'multiples': 0.02}
+2025-09-19 00:07:16,901 - INFO - Starting validation for TEST
+2025-09-19 00:07:16,901 - INFO - Validation passed for TEST with 0 non-blocking issues
+2025-09-19 00:07:16,902 - INFO - Starting validation for SMALL
+2025-09-19 00:07:16,902 - INFO - Validation passed for SMALL with 0 non-blocking issues
+2025-09-19 00:07:16,902 - INFO - Starting validation for MEDIUM
+2025-09-19 00:07:16,902 - INFO - Validation passed for MEDIUM with 0 non-blocking issues
+2025-09-19 00:07:16,902 - INFO - Starting validation for LARGE
+2025-09-19 00:07:16,903 - ERROR - VALIDATION ERROR: Market Cap differs by 3.00% (calculated=100000000.00, actual=103000000.00)
+2025-09-19 00:07:16,903 - WARNING - VALIDATION WARNING: EV differs by 0.75% (calculated=133000000.00, actual=132000000.00)
+2025-09-19 00:07:16,903 - ERROR - VALIDATION ERROR: P/E Forward differs by 10.00% (calculated=18.18, actual=20.00)
+2025-09-19 00:07:16,903 - ERROR - Validation failed for LARGE with blocking issues
+2025-09-19 00:07:16,903 - ERROR -   - Market Cap: expected=100000000.0, actual=103000000.0, diff=3.00%, threshold=1.00%
+2025-09-19 00:07:16,903 - ERROR -   - P/E Forward: expected=18.181818181818183, actual=20.0, diff=10.00%, threshold=2.00%
+2025-09-19 00:07:16,903 - ERROR - Validation failed for 1 companies: LARGE
+2025-09-19 00:07:38,394 - INFO - Validation engine initialized with thresholds: {'market_cap': 0.005, 'enterprise_value': 0.001, 'eps': 0.005, 'multiples': 0.01}
+2025-09-19 00:07:38,395 - INFO - Starting validation for TEST
+2025-09-19 00:07:38,395 - INFO - Validation passed for TEST with 0 non-blocking issues
+2025-09-19 00:07:38,395 - INFO - Starting validation for SMALL
+2025-09-19 00:07:38,395 - WARNING - VALIDATION WARNING: Market Cap differs by 0.90% (calculated=100000000.00, actual=100900000.00)
+2025-09-19 00:07:38,395 - WARNING - VALIDATION WARNING: EV differs by 0.19% (calculated=130900000.00, actual=130650000.00)
+2025-09-19 00:07:38,397 - WARNING - VALIDATION WARNING: P/E Forward differs by 1.00% (calculated=19.80, actual=20.00)
+2025-09-19 00:07:38,397 - INFO - Validation passed for SMALL with 3 non-blocking issues
+2025-09-19 00:07:38,397 - INFO - Starting validation for MEDIUM
+2025-09-19 00:07:38,397 - WARNING - VALIDATION WARNING: Market Cap differs by 1.00% (calculated=100000000.00, actual=101000000.00)
+2025-09-19 00:07:38,397 - ERROR - VALIDATION ERROR: EV differs by 0.69% (calculated=131000000.00, actual=130100000.00)
+2025-09-19 00:07:38,397 - WARNING - VALIDATION WARNING: P/E Forward differs by 2.00% (calculated=19.61, actual=20.00)
+2025-09-19 00:07:38,397 - ERROR - Validation failed for MEDIUM with blocking issues
+2025-09-19 00:07:38,397 - ERROR -   - EV: expected=131000000.0, actual=130100000.0, diff=0.69%, threshold=0.10%
+2025-09-19 00:07:38,486 - INFO - Validation engine initialized with thresholds: {'market_cap': 0.01, 'enterprise_value': 0.005, 'eps': 0.01, 'multiples': 0.02}
+2025-09-19 00:07:38,486 - INFO - Starting validation for TEST
+2025-09-19 00:07:38,486 - INFO - Validation passed for TEST with 0 non-blocking issues
+2025-09-19 00:07:38,487 - INFO - Starting validation for SMALL
+2025-09-19 00:07:38,487 - INFO - Validation passed for SMALL with 0 non-blocking issues
+2025-09-19 00:07:38,487 - INFO - Starting validation for MEDIUM
+2025-09-19 00:07:38,487 - WARNING - VALIDATION WARNING: EV differs by 0.69% (calculated=131000000.00, actual=130100000.00)
+2025-09-19 00:07:38,488 - INFO - Validation passed for MEDIUM with 1 non-blocking issues
+2025-09-19 00:07:38,488 - INFO - Starting validation for LARGE
+2025-09-19 00:07:38,488 - ERROR - VALIDATION ERROR: Market Cap differs by 3.00% (calculated=100000000.00, actual=103000000.00)
+2025-09-19 00:07:38,488 - WARNING - VALIDATION WARNING: EV differs by 0.75% (calculated=133000000.00, actual=132000000.00)
+2025-09-19 00:07:38,488 - ERROR - VALIDATION ERROR: P/E Forward differs by 10.00% (calculated=18.18, actual=20.00)
+2025-09-19 00:07:38,488 - ERROR - Validation failed for LARGE with blocking issues
+2025-09-19 00:07:38,488 - ERROR -   - Market Cap: expected=100000000.0, actual=103000000.0, diff=3.00%, threshold=1.00%
+2025-09-19 00:07:38,489 - ERROR -   - P/E Forward: expected=18.181818181818183, actual=20.0, diff=10.00%, threshold=2.00%
+2025-09-19 00:07:38,489 - ERROR - Validation failed for 1 companies: LARGE
+2025-09-19 00:07:57,521 - INFO - Validation engine initialized with thresholds: {'market_cap': 0.005, 'enterprise_value': 0.001, 'eps': 0.005, 'multiples': 0.01}
+2025-09-19 00:07:57,522 - INFO - Starting validation for TEST
+2025-09-19 00:07:57,522 - INFO - Validation passed for TEST with 0 non-blocking issues
+2025-09-19 00:07:57,523 - INFO - Starting validation for SMALL
+2025-09-19 00:07:57,523 - WARNING - VALIDATION WARNING: Market Cap differs by 0.90% (calculated=100000000.00, actual=100900000.00)
+2025-09-19 00:07:57,523 - WARNING - VALIDATION WARNING: EV differs by 0.19% (calculated=130900000.00, actual=130650000.00)
+2025-09-19 00:07:57,523 - WARNING - VALIDATION WARNING: P/E Forward differs by 1.00% (calculated=19.80, actual=20.00)
+2025-09-19 00:07:57,523 - INFO - Validation passed for SMALL with 3 non-blocking issues
+2025-09-19 00:07:57,523 - INFO - Starting validation for MEDIUM
+2025-09-19 00:07:57,523 - WARNING - VALIDATION WARNING: Market Cap differs by 1.00% (calculated=100000000.00, actual=101000000.00)
+2025-09-19 00:07:57,523 - ERROR - VALIDATION ERROR: EV differs by 0.73% (calculated=131000000.00, actual=130050000.00)
+2025-09-19 00:07:57,523 - WARNING - VALIDATION WARNING: P/E Forward differs by 2.00% (calculated=19.61, actual=20.00)
+2025-09-19 00:07:57,523 - ERROR - Validation failed for MEDIUM with blocking issues
+2025-09-19 00:07:57,523 - ERROR -   - EV: expected=131000000.0, actual=130050000.0, diff=0.73%, threshold=0.10%
+2025-09-19 00:07:57,607 - INFO - Validation engine initialized with thresholds: {'market_cap': 0.01, 'enterprise_value': 0.005, 'eps': 0.01, 'multiples': 0.02}
+2025-09-19 00:07:57,608 - INFO - Starting validation for TEST
+2025-09-19 00:07:57,608 - INFO - Validation passed for TEST with 0 non-blocking issues
+2025-09-19 00:07:57,608 - INFO - Starting validation for SMALL
+2025-09-19 00:07:57,608 - INFO - Validation passed for SMALL with 0 non-blocking issues
+2025-09-19 00:07:57,609 - INFO - Starting validation for MEDIUM
+2025-09-19 00:07:57,609 - WARNING - VALIDATION WARNING: EV differs by 0.73% (calculated=131000000.00, actual=130050000.00)
+2025-09-19 00:07:57,609 - INFO - Validation passed for MEDIUM with 1 non-blocking issues
+2025-09-19 00:07:57,609 - INFO - Starting validation for LARGE
+2025-09-19 00:07:57,609 - ERROR - VALIDATION ERROR: Market Cap differs by 3.00% (calculated=100000000.00, actual=103000000.00)
+2025-09-19 00:07:57,609 - WARNING - VALIDATION WARNING: EV differs by 0.75% (calculated=133000000.00, actual=132000000.00)
+2025-09-19 00:07:57,609 - ERROR - VALIDATION ERROR: P/E Forward differs by 10.00% (calculated=18.18, actual=20.00)
+2025-09-19 00:07:57,609 - ERROR - Validation failed for LARGE with blocking issues
+2025-09-19 00:07:57,609 - ERROR -   - Market Cap: expected=100000000.0, actual=103000000.0, diff=3.00%, threshold=1.00%
+2025-09-19 00:07:57,610 - ERROR -   - P/E Forward: expected=18.181818181818183, actual=20.0, diff=10.00%, threshold=2.00%
+2025-09-19 00:07:57,610 - ERROR - Validation failed for 1 companies: LARGE
+2025-09-19 00:08:21,534 - INFO - Validation engine initialized with thresholds: {'market_cap': 0.005, 'enterprise_value': 0.001, 'eps': 0.005, 'multiples': 0.01}
+2025-09-19 00:08:21,535 - INFO - Starting validation for TEST
+2025-09-19 00:08:21,536 - INFO - Validation passed for TEST with 0 non-blocking issues
+2025-09-19 00:08:21,536 - INFO - Starting validation for SMALL
+2025-09-19 00:08:21,536 - WARNING - VALIDATION WARNING: Market Cap differs by 0.90% (calculated=100000000.00, actual=100900000.00)
+2025-09-19 00:08:21,536 - WARNING - VALIDATION WARNING: EV differs by 0.19% (calculated=130900000.00, actual=130650000.00)
+2025-09-19 00:08:21,537 - WARNING - VALIDATION WARNING: P/E Forward differs by 1.00% (calculated=19.80, actual=20.00)
+2025-09-19 00:08:21,537 - INFO - Validation passed for SMALL with 3 non-blocking issues
+2025-09-19 00:08:21,537 - INFO - Starting validation for MEDIUM
+2025-09-19 00:08:21,537 - WARNING - VALIDATION WARNING: Market Cap differs by 1.00% (calculated=100000000.00, actual=101000000.00)
+2025-09-19 00:08:21,537 - ERROR - VALIDATION ERROR: EV differs by 0.76% (calculated=131000000.00, actual=130010000.00)
+2025-09-19 00:08:21,537 - WARNING - VALIDATION WARNING: P/E Forward differs by 2.00% (calculated=19.61, actual=20.00)
+2025-09-19 00:08:21,537 - ERROR - Validation failed for MEDIUM with blocking issues
+2025-09-19 00:08:21,538 - ERROR -   - EV: expected=131000000.0, actual=130010000.0, diff=0.76%, threshold=0.10%
+2025-09-19 00:08:21,622 - INFO - Validation engine initialized with thresholds: {'market_cap': 0.01, 'enterprise_value': 0.005, 'eps': 0.01, 'multiples': 0.02}
+2025-09-19 00:08:21,622 - INFO - Starting validation for TEST
+2025-09-19 00:08:21,622 - INFO - Validation passed for TEST with 0 non-blocking issues
+2025-09-19 00:08:21,622 - INFO - Starting validation for SMALL
+2025-09-19 00:08:21,623 - INFO - Validation passed for SMALL with 0 non-blocking issues
+2025-09-19 00:08:21,623 - INFO - Starting validation for MEDIUM
+2025-09-19 00:08:21,623 - WARNING - VALIDATION WARNING: EV differs by 0.76% (calculated=131000000.00, actual=130010000.00)
+2025-09-19 00:08:21,623 - INFO - Validation passed for MEDIUM with 1 non-blocking issues
+2025-09-19 00:08:21,623 - INFO - Starting validation for LARGE
+2025-09-19 00:08:21,624 - ERROR - VALIDATION ERROR: Market Cap differs by 3.00% (calculated=100000000.00, actual=103000000.00)
+2025-09-19 00:08:21,624 - WARNING - VALIDATION WARNING: EV differs by 0.75% (calculated=133000000.00, actual=132000000.00)
+2025-09-19 00:08:21,624 - ERROR - VALIDATION ERROR: P/E Forward differs by 10.00% (calculated=18.18, actual=20.00)
+2025-09-19 00:08:21,624 - ERROR - Validation failed for LARGE with blocking issues
+2025-09-19 00:08:21,624 - ERROR -   - Market Cap: expected=100000000.0, actual=103000000.0, diff=3.00%, threshold=1.00%
+2025-09-19 00:08:21,624 - ERROR -   - P/E Forward: expected=18.181818181818183, actual=20.0, diff=10.00%, threshold=2.00%
+2025-09-19 00:08:21,624 - ERROR - Validation failed for 1 companies: LARGE
+2025-09-19 00:08:52,200 - INFO - Validation engine initialized with thresholds: {'market_cap': 0.005, 'enterprise_value': 0.001, 'eps': 0.005, 'multiples': 0.01}
+2025-09-19 00:08:52,201 - INFO - Starting validation for TEST
+2025-09-19 00:08:52,201 - INFO - Validation passed for TEST with 0 non-blocking issues
+2025-09-19 00:08:52,202 - INFO - Starting validation for SMALL
+2025-09-19 00:08:52,202 - WARNING - VALIDATION WARNING: Market Cap differs by 0.90% (calculated=100000000.00, actual=100900000.00)
+2025-09-19 00:08:52,202 - WARNING - VALIDATION WARNING: EV differs by 0.19% (calculated=130900000.00, actual=130650000.00)
+2025-09-19 00:08:52,209 - WARNING - VALIDATION WARNING: P/E Forward differs by 1.00% (calculated=19.80, actual=20.00)
+2025-09-19 00:08:52,209 - INFO - Validation passed for SMALL with 3 non-blocking issues
+2025-09-19 00:08:52,209 - INFO - Starting validation for MEDIUM
+2025-09-19 00:08:52,209 - WARNING - VALIDATION WARNING: Market Cap differs by 1.00% (calculated=100000000.00, actual=101000000.00)
+2025-09-19 00:08:52,209 - ERROR - VALIDATION ERROR: EV differs by 0.76% (calculated=131000000.00, actual=130000100.00)
+2025-09-19 00:08:52,210 - WARNING - VALIDATION WARNING: P/E Forward differs by 2.00% (calculated=19.61, actual=20.00)
+2025-09-19 00:08:52,210 - ERROR - Validation failed for MEDIUM with blocking issues
+2025-09-19 00:08:52,210 - ERROR -   - EV: expected=131000000.0, actual=130000100.0, diff=0.76%, threshold=0.10%
+2025-09-19 00:08:52,296 - INFO - Validation engine initialized with thresholds: {'market_cap': 0.01, 'enterprise_value': 0.005, 'eps': 0.01, 'multiples': 0.02}
+2025-09-19 00:08:52,296 - INFO - Starting validation for TEST
+2025-09-19 00:08:52,296 - INFO - Validation passed for TEST with 0 non-blocking issues
+2025-09-19 00:08:52,297 - INFO - Starting validation for SMALL
+2025-09-19 00:08:52,297 - INFO - Validation passed for SMALL with 0 non-blocking issues
+2025-09-19 00:08:52,297 - INFO - Starting validation for MEDIUM
+2025-09-19 00:08:52,297 - WARNING - VALIDATION WARNING: EV differs by 0.76% (calculated=131000000.00, actual=130000100.00)
+2025-09-19 00:08:52,297 - INFO - Validation passed for MEDIUM with 1 non-blocking issues
+2025-09-19 00:08:52,298 - INFO - Starting validation for LARGE
+2025-09-19 00:08:52,298 - ERROR - VALIDATION ERROR: Market Cap differs by 3.00% (calculated=100000000.00, actual=103000000.00)
+2025-09-19 00:08:52,298 - WARNING - VALIDATION WARNING: EV differs by 0.75% (calculated=133000000.00, actual=132000000.00)
+2025-09-19 00:08:52,298 - ERROR - VALIDATION ERROR: P/E Forward differs by 10.00% (calculated=18.18, actual=20.00)
+2025-09-19 00:08:52,298 - ERROR - Validation failed for LARGE with blocking issues
+2025-09-19 00:08:52,298 - ERROR -   - Market Cap: expected=100000000.0, actual=103000000.0, diff=3.00%, threshold=1.00%
+2025-09-19 00:08:52,298 - ERROR -   - P/E Forward: expected=18.181818181818183, actual=20.0, diff=10.00%, threshold=2.00%
+2025-09-19 00:08:52,298 - ERROR - Validation failed for 1 companies: LARGE

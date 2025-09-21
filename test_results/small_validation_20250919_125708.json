@@ -1,0 +1,41 @@
+{
+  "company_ticker": "SMALL",
+  "passed": true,
+  "issues": [
+    {
+      "metric": "Market Cap",
+      "expected": 100000000.0,
+      "actual": 100900000.0,
+      "abs_difference": 900000.0,
+      "pct_difference": 0.009,
+      "severity": "WARNING",
+      "threshold": 0.005,
+      "details": "Recalculated Market Cap differs from ingested value by 0.90%",
+      "timestamp": "2025-09-19T12:57:08.011653"
+    },
+    {
+      "metric": "EV",
+      "expected": 130900000.0,
+      "actual": 130650000.0,
+      "abs_difference": 250000.0,
+      "pct_difference": 0.0019098548510313217,
+      "severity": "WARNING",
+      "threshold": 0.001,
+      "details": "Recalculated EV differs from ingested value by 0.19%",
+      "timestamp": "2025-09-19T12:57:08.019935"
+    },
+    {
+      "metric": "P/E Forward",
+      "expected": 19.801980198019802,
+      "actual": 20.0,
+      "abs_difference": 0.1980198019801982,
+      "pct_difference": 0.010000000000000009,
+      "severity": "WARNING",
+      "threshold": 0.01,
+      "details": "Recalculated P/E Forward differs from ingested value by 1.00%",
+      "timestamp": "2025-09-19T12:57:08.019935"
+    }
+  ],
+  "validation_time": "2025-09-19T12:57:08.011653",
+  "has_blocking_issues": false
+}

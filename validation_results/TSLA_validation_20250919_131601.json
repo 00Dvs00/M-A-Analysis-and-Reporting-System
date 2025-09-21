@@ -1,0 +1,19 @@
+{
+  "company_ticker": "TSLA",
+  "passed": false,
+  "issues": [
+    {
+      "metric": "EV",
+      "expected": 1362441154560,
+      "actual": 1321638428672,
+      "abs_difference": 40802725888,
+      "pct_difference": 0.02994824822447266,
+      "severity": "ERROR",
+      "threshold": 0.005,
+      "details": "Recalculated EV differs from ingested value by 2.99%",
+      "timestamp": "2025-09-19T13:16:01.916596"
+    }
+  ],
+  "validation_time": "2025-09-19T13:16:01.916596",
+  "has_blocking_issues": true
+}

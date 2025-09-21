@@ -1,0 +1,19 @@
+{
+  "company_ticker": "DELL",
+  "passed": false,
+  "issues": [
+    {
+      "metric": "Market Cap",
+      "expected": 44508469216.090004,
+      "actual": 88827215872,
+      "abs_difference": 44318746655.909996,
+      "pct_difference": 0.9957373829403366,
+      "severity": "ERROR",
+      "threshold": 0.01,
+      "details": "Recalculated Market Cap differs from ingested value by 99.57%",
+      "timestamp": "2025-09-19T13:16:01.901578"
+    }
+  ],
+  "validation_time": "2025-09-19T13:16:01.901578",
+  "has_blocking_issues": true
+}
